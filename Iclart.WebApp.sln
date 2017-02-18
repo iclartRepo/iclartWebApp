@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iclart.WebApp", "Iclart.WebApp\Iclart.WebApp.csproj", "{4122DA0E-4974-41C7-A02C-353E74A72272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{C1809E4C-AAF0-429A-A626-284047348897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Business Logic Layer", "03-Business Logic Layer", "{770C90BA-0BF3-470A-9721-3FA22C8B9D92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Data Access Layer", "04-Data Access Layer", "{D43D9A19-CAE2-44CF-B343-8F2326C621FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Cross Cutting Libraries", "05-Cross Cutting Libraries", "{D6AF08EF-C792-4C8B-A944-B12A4F6F8766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iclart.BLL", "Iclart.BLL\Iclart.BLL.csproj", "{D0827F70-C3D5-420A-8347-DE777FDF3CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iclart.DAL", "Iclart.DAL\Iclart.DAL.csproj", "{4BFDD894-5938-4009-981D-7D0FE415C402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iclart.Common", "Iclart.Common\Iclart.Common.csproj", "{189B8C55-15D9-423D-815B-B4DABB3B39DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4122DA0E-4974-41C7-A02C-353E74A72272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4122DA0E-4974-41C7-A02C-353E74A72272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4122DA0E-4974-41C7-A02C-353E74A72272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4122DA0E-4974-41C7-A02C-353E74A72272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0827F70-C3D5-420A-8347-DE777FDF3CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0827F70-C3D5-420A-8347-DE777FDF3CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0827F70-C3D5-420A-8347-DE777FDF3CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0827F70-C3D5-420A-8347-DE777FDF3CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFDD894-5938-4009-981D-7D0FE415C402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFDD894-5938-4009-981D-7D0FE415C402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFDD894-5938-4009-981D-7D0FE415C402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFDD894-5938-4009-981D-7D0FE415C402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189B8C55-15D9-423D-815B-B4DABB3B39DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189B8C55-15D9-423D-815B-B4DABB3B39DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189B8C55-15D9-423D-815B-B4DABB3B39DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189B8C55-15D9-423D-815B-B4DABB3B39DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4122DA0E-4974-41C7-A02C-353E74A72272} = {C1809E4C-AAF0-429A-A626-284047348897}
+		{D0827F70-C3D5-420A-8347-DE777FDF3CEF} = {770C90BA-0BF3-470A-9721-3FA22C8B9D92}
+		{4BFDD894-5938-4009-981D-7D0FE415C402} = {D43D9A19-CAE2-44CF-B343-8F2326C621FB}
+		{189B8C55-15D9-423D-815B-B4DABB3B39DE} = {D6AF08EF-C792-4C8B-A944-B12A4F6F8766}
+	EndGlobalSection
+EndGlobal

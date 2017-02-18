@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/wwwroot/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/wwwroot/styles/main.min.css" />
+</head>
+<body ng-app="iclartWeb">
+ 
+    @RenderPage("Header.cshtml")
+    <div ui-view></div>
+    
+      
+    @* JS Files *@
+    <script src="~/wwwroot/src/scripts/angular.min.js"></script>
+    <script src="~/wwwroot/src/scripts/angular-ui-router.js"></script>
+
+    @* Common JS Files *@
+    <script src="~/wwwroot/src/common/app.js"></script>
+    <script src="~/wwwroot/src/common/app.routes.js"></script>
+
+
+</body>
+</html>
