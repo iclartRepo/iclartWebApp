@@ -1,1 +1,25 @@
-﻿
+﻿.navbar {
+  background-color: #142B3D !important;
+  border: none !important;
+  border-radius: 0px !important;
+  color: white !important; }
+  .navbar .navbar-brand, .navbar a {
+    color: white !important; }
+  .navbar .dropdown-menu li a {
+    color: #333 !important; }
+  .navbar .open a {
+    color: #333 !important; }
+
+#clientList .add-client {
+  float: right; }
+
+#clientList .client-filter {
+  float: left;
+  width: 75%; }
+  #clientList .client-filter .client-filter-label {
+    display: inline-block;
+    margin-right: 10px; }
+  #clientList .client-filter .client-filter-input {
+    display: inline-block;
+    width: 75%; }
+

@@ -16,7 +16,7 @@ namespace Iclart.DAL
             Database.SetInitializer(new MyDbInit());
         }
      
-        public DbSet<Client> Clients { get; set; }       
+        public DbSet<ClientEntity> Clients { get; set; }       
 
     }
     public class MyDbInit : CreateDatabaseIfNotExists<IclartDBContext>

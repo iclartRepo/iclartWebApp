@@ -5,12 +5,16 @@
 
     myApp.config(function($stateProvider, $urlRouterProvider) 
     {
-        $urlRouterProvider.otherwise('/');
-
+    
+        $urlRouterProvider.otherwise("/home");
         $stateProvider
             .state('home', {
-                url: '/',
+                url: '/home',
                 template: '<p>Hello World</p>'
             })
+        .state('clientList', {
+            url: '/clients',
+            template: '<client-list-component></client-list-component>'
+        })
     })
 })();

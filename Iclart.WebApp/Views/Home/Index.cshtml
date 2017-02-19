@@ -1,14 +1,19 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="~/wwwroot/src/scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/wwwroot/src/scripts/bootstrap.min.js"></script>
     <link rel="stylesheet" href="~/wwwroot/styles/bootstrap.min.css" />
     <link rel="stylesheet" href="~/wwwroot/styles/main.min.css" />
 </head>
 <body ng-app="iclartWeb">
  
     @RenderPage("Header.cshtml")
-    <div ui-view></div>
-    
+   
+    <div class="container-fluid">
+        <ui-view></ui-view>
+    </div>
+
       
     @* JS Files *@
     <script src="~/wwwroot/src/scripts/angular.min.js"></script>
@@ -18,6 +23,11 @@
     <script src="~/wwwroot/src/common/app.js"></script>
     <script src="~/wwwroot/src/common/app.routes.js"></script>
 
+    @* Angular Controllers *@
+    <script src="~/wwwroot/src/clientManagement/clientList/clientList.component.js"></script>
+
+    @* Angular Services *@
+    <script src="~/wwwroot/src/services/clientList.service.js"></script>
 
 </body>
 </html>
