@@ -16,5 +16,9 @@
             url: '/clients',
             template: '<client-list-component></client-list-component>'
         })
+        .state('clientFormAdd', {
+            url: '/newClient',
+            template: '<client-form-component></client-form-component>'
+        })
     })
 })();

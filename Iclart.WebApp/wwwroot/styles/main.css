@@ -23,3 +23,6 @@
     display: inline-block;
     width: 75%; }
 
+#clientForm .clientForm-label {
+  margin-bottom: 10px; }
+
