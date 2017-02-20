@@ -23,6 +23,31 @@
     display: inline-block;
     width: 75%; }
 
-#clientForm .clientForm-label {
-  margin-bottom: 10px; }
+#clientForm {
+  margin-top: -20px; }
+  #clientForm .client-name {
+    width: 100%; }
+    #clientForm .client-name .name {
+      width: 80%;
+      display: inline-block; }
+    #clientForm .client-name .dealer {
+      text-align: center;
+      width: 5%;
+      display: inline-block; }
+    #clientForm .client-name .agent {
+      text-align: center;
+      width: 5%;
+      display: inline-block; }
+  #clientForm .client-form-pagination {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px; }
+    #clientForm .client-form-pagination table {
+      margin: 0 auto;
+      width: 20%; }
+      #clientForm .client-form-pagination table td {
+        cursor: pointer; }
+      #clientForm .client-form-pagination table td:hover {
+        background-color: #142b3d;
+        color: white; }
 

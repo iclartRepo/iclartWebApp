@@ -1,5 +1,36 @@
 ﻿#clientForm {
-    .clientForm-label {
-        margin-bottom: 10px;
+    margin-top: -20px;
+    .client-name {
+        width:100%;
+        .name {
+            width:80%;
+            display:inline-block;
+        }
+        .dealer {
+            text-align:center;
+            width:5%;
+            display:inline-block;
+        }
+        .agent {
+            text-align:center;
+            width:5%;
+            display:inline-block;
+        }
+    }
+    .client-form-pagination {
+        text-align:center;
+        width: 100%;
+        margin-bottom: 15px;
+        table {
+            margin:0 auto;
+            width:20%;
+            td {
+                cursor: pointer;
+            }
+            td:hover {
+                background-color:#142b3d;
+                color:white;
+            }
+        }
     }
 }
