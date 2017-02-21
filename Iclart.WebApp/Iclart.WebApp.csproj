@@ -1066,6 +1066,7 @@
     <Content Include="wwwroot\styles\header.scss" />
     <Content Include="wwwroot\src\clientManagement\clientList\clientList.component.scss" />
     <Content Include="wwwroot\src\clientManagement\clientForm\clientForm.component.scss" />
+    <Content Include="wwwroot\styles\body.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

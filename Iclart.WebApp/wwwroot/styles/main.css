@@ -10,6 +10,12 @@
   .navbar .open a {
     color: #333 !important; }
 
+.content {
+  padding-top: 5%; }
+
+body {
+  overflow-y: hidden; }
+
 #clientList .add-client {
   float: right; }
 
@@ -25,6 +31,14 @@
 
 #clientForm {
   margin-top: -20px; }
+  #clientForm .clientForm-action-buttons {
+    position: absolute;
+    right: 15px;
+    top: 60px; }
+  #clientForm .clientForm-group {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 550px; }
   #clientForm .client-name {
     width: 100%; }
     #clientForm .client-name .name {
@@ -42,12 +56,4 @@
     text-align: center;
     width: 100%;
     margin-bottom: 15px; }
-    #clientForm .client-form-pagination table {
-      margin: 0 auto;
-      width: 20%; }
-      #clientForm .client-form-pagination table td {
-        cursor: pointer; }
-      #clientForm .client-form-pagination table td:hover {
-        background-color: #142b3d;
-        color: white; }
 

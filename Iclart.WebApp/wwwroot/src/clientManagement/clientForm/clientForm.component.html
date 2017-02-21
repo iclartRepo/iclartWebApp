@@ -1,5 +1,11 @@
 ﻿<div id="clientForm">
     <h3 class="clientForm-label">Add/Edit Client</h3>
+    <div class="clientForm-action-buttons">
+        <a class="btn btn-default" ui-sref="clientList">Cancel</a>
+        <button class="btn btn-success">Save</button>
+    </div>
+  
+    <div class="clientForm-group">
     <form novalidate>
         <div ng-show="vm.page == 1">
             <div class="form-group client-name">
@@ -89,9 +95,14 @@
             </div>
         </div>
     </form>
-
+        
     <div class="client-form-pagination">
-        <table class="table table-bordered">
+
+        <button class="btn btn-default">Prev</button>
+        <button class="btn btn-default">1</button>
+        <button class="btn btn-default">2</button>
+        <button class="btn btn-default">Next</button>
+        <!--<table class="table table-bordered">
             <tbody>
                 <tr>
                     <td ng-click="vm.changePage(-1)">Prev</td>
@@ -100,6 +111,7 @@
                     <td ng-click="vm.changePage(1)">Next</td>
                 </tr>
             </tbody>
-        </table>
+        </table>-->
     </div>
+        </div>
 </div>

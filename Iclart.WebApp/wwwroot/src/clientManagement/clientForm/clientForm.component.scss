@@ -1,5 +1,15 @@
 ﻿#clientForm {
     margin-top: -20px;
+    .clientForm-action-buttons {
+        position:absolute;
+        right:15px;
+        top: 60px;
+    }
+    .clientForm-group {
+        overflow-x:hidden;
+        overflow-y:scroll;
+        height:550px;
+    }
     .client-name {
         width:100%;
         .name {
@@ -21,16 +31,6 @@
         text-align:center;
         width: 100%;
         margin-bottom: 15px;
-        table {
-            margin:0 auto;
-            width:20%;
-            td {
-                cursor: pointer;
-            }
-            td:hover {
-                background-color:#142b3d;
-                color:white;
-            }
-        }
+       
     }
 }
